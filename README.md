@@ -10,17 +10,3 @@
 gcc src/main.c -o pass_gen
 ./pass_gen
 ```
-
-В macOS (Clang):
-
-```bash
-clang src/main.c -o pass_gen
-./pass_gen
-```
-
-В Windows (MinGW):
-
-```bash
-gcc src/main.c -o pass_gen.exe
-pass_gen.exe
-```
